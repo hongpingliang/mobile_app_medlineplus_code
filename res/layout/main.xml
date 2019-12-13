@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dip"
+            android:background="@drawable/bg_round_rect_line"
+            android:orientation="vertical"
+            android:paddingBottom="35dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:paddingTop="35dip" >
+
+            <Button
+                android:id="@+id/main_problem_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_code_problem"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/gray" />
+
+            <Button
+                android:id="@+id/main_medication_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dip"
+                android:text="@string/main_code_medication"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/gray" />
+
+            <Button
+                android:id="@+id/main_lab_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dip"
+                android:text="@string/main_code_lab"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/gray" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

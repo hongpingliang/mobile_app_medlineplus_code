@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medical Codes</string>
+    <string name="submit">Submit</string>
+    <string name="type_SNOMED_CT">SNOMED CT</string>
+    <string name="type_ICD_9_CM">ICD-9-CM</string>
+    <string name="type_RXCUI">RXCUI</string>
+    <string name="type_NDC">NDC</string>
+    <string name="type_LOINC">LOINC</string>
+    
+    <string name="main_code_problem">Problem Codes</string>
+    <string name="main_code_medication">Medication Codes</string>
+    <string name="main_code_lab">Lab Test Codes</string>
+    
+    <string name="search_code_hint">Enter code</string>
+    <string name="search_hint_SNOMED_CT">ex. 195967001, 313436004</string>
+    <string name="search_hint_ICD_9_CM">ex. 493.22, 250.00</string>
+    <string name="search_hint_RXCUI">ex. 387013, 849383</string>
+    <string name="search_hint_NDC">ex. 00456140501, 00149078302</string>
+    <string name="search_hint_LOINC">ex. 1668-3, 50387-0</string>
+
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_message">        
+        The data is retrieved from the MedlinePlus web service. 
+        Check with your health care provider to discuss your questions 
+        and get the information that is right for you.
+
+         \nThe app does not warrant or assume any legal liability or responsibility
+          for the accuracy, completeness, or usefulness of any information, 
+          apparatus, product, or process disclosed. 
+          By accessing this app, you expressly agree that use of the
+           service is at your sole risk.
+    </string>
+</resources>
